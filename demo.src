@@ -1,0 +1,2 @@
+alias demo-admin='export KUBECONFIG=/Users/dscott/VSCode/github/scottd018/demos/openshift-rosa-ws/admin'
+alias demo-developer='export KUBECONFIG=/Users/dscott/VSCode/github/scottd018/demos/openshift-rosa-ws/developer'

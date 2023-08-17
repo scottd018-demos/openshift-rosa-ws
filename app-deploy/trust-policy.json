@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Federated": "arn:aws:iam::660250927410:oidc-provider/rh-oidc.s3.us-east-1.amazonaws.com/25leferd9rsda2qg2vrdrg99mk6e9ajo" 
+            },
+            "Action": "sts:AssumeRoleWithWebIdentity",
+            "Condition": {
+                "StringEquals": {
+                    "rh-oidc.s3.us-east-1.amazonaws.com/25leferd9rsda2qg2vrdrg99mk6e9ajo:sub": "system:serviceaccount:microsweeper-ex:microsweeper" 
+                }
+            }
+        }
+    ]
+}

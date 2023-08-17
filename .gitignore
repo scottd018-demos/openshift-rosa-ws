@@ -1,0 +1,6 @@
+# ignore kubeconfigs
+developer
+admin
+
+# ignore git directories
+app-deploy/rosa-workshop-app
